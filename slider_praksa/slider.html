@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <div class="header">
+        <h3>INFINITE SLIDER</h3>
+    </div>
+
+    <div class="side">
+        <h1>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h1>
+        <p>
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="slider">
+            
+            <div class="top-row">
+                <div class="slide"><img src="Assets\slider-image-1.jpg" width="220" height="200" id="zadnja"></div>
+                <div class="slide"><img src="Assets\slider-image-2.jpg" width="180" height="200"></div>
+                <div class="slide"><img src="Assets\slider-image-3.jpg" width="160" height="200"></div>
+                <div class="slide"><img src="Assets\slider-image-4.jpg" width="220" height="200"></div>
+                <div class="slide"><img src="Assets\slider-image-5.jpg" width="260" height="200"></div>                   
+            </div>
+
+            <div class="bottom-row">
+                <div class="slide"><img src="Assets\slider-image-6.jpg" width="260" height="200"></div>
+                <div class="slide"><img src="Assets\slider-image-7.jpg" width="220" height="200"></div>
+                <div class="slide"><img src="Assets\slider-image-8.jpg" width="260" height="200" ></div>
+                <div class="slide"><img src="Assets\slider-image-9.jpg" width="120" height="200" id="prva"></div>
+                
+                <div class="strelice">
+                    <button class="lijevo" type="button" id="lijevo"></button>
+                    <button class="desno" type="button" id="desno"></button>
+                  </div>
+            </div>
+        </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>
